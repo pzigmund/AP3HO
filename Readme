@@ -5,3 +5,8 @@ použití kalkulacka.sh :
 ./kalkulacka.sh 10 5 div   # Výsledek dělení: 2
 ./kalkulacka.sh 10 0 div   # Chyba: Dělení nulou není možné.
 ./kalkulacka.sh 10 5 mod   # Chyba: Neplatná operace. Použijte add, sub, mul, nebo div.
+
+
+echo -e "jablko\nbanán\npomeranč\njablko\nhruška\npomeranč\nmeloun\njahoda\nbanán\njablko\nkiwi\nhruška\nbanán" > data.txt
+
+echo -e "ID,Jmeno,Prijmeni,Email\n1,Jan,Novak,jan.novak@example.com\n2,Petra,Svobodova,petra.svobodova@example.com\n3,Lukas,Hlavac,lukas.hlavac@example.com\n4,Eva,Kralova,eva.kralova@example.com\n5,Jan,Novak,jan.novak@example.com\n6,Petra,Svobodova,petra.svobodova@example.com\n7,Martin,Dvorak,martin.dvorak@example.com\n8,Ivana,Hajkova,ivana.hajkova@example.com\n9,Lukas,Hlavac,lukas.hlavac@example.com\n10,Eva,Kralova,eva.kralova@example.com" > data.csv
