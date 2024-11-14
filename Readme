@@ -1,0 +1,7 @@
+použití kalkulacka.sh : 
+./kalkulacka.sh 10 5 add   # Výsledek sčítání: 15
+./kalkulacka.sh 10 5 sub   # Výsledek odčítání: 5
+./kalkulacka.sh 10 5 mul   # Výsledek násobení: 50
+./kalkulacka.sh 10 5 div   # Výsledek dělení: 2
+./kalkulacka.sh 10 0 div   # Chyba: Dělení nulou není možné.
+./kalkulacka.sh 10 5 mod   # Chyba: Neplatná operace. Použijte add, sub, mul, nebo div.
